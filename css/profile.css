@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+.banner {
+  position: relative;
+  height: 400px;
+  background-image: url('../img/banner.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.banner-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+}
+
+.banner-text h2 {
+  font-size: 32px;
+  margin: 0;
+}
+
+.banner-text p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.about, .services, .contact {
+  padding: 20px;
+}
+
+.about h2, .services h2, .contact h2 {
+  margin: 0;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
